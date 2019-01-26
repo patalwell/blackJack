@@ -35,17 +35,15 @@ public class Deck {
     //shuffle the deck using Collections
     public void shuffle() {
 
-        Collections.shuffle(deckOfCards);
+         Collections.shuffle(deckOfCards);
     }
 
 
     public Card dealNextCard() {
-        Card nextCard = deckOfCards.get(0);
-        return nextCard;
+        return this.deckOfCards.get(0);
     }
 
     public void removeCardFromDeck() {
-
         deckOfCards.remove(0);
     }
 
