@@ -1,9 +1,10 @@
-package com.palwell;
+package com.palwell.games;
 
-import com.palwell.common.util.Card;
-import com.palwell.common.util.Hand;
-import com.palwell.common.util.Value;
-import java.util.*;
+import com.palwell.games.util.Card;
+import com.palwell.games.util.Hand;
+import com.palwell.games.util.Value;
+import com.palwell.games.util.Test;
+import java.util.Scanner;
 
 /**
  * @Author Pat Alwell

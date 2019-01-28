@@ -1,11 +1,14 @@
-package com.makesrc.common.util;
+package com.palwell.games.util;
+
+import com.palwell.games.util.Value;
+import com.palwell.games.util.Suit;
 
 /**
  * @Author Pat Alwell
  *
  * Card.java
  *
- * Card class to instantiate cards with both Suits and Values
+ * Card class to instantiate card objects with both Suits and Values
  */
 
 public class Card {
@@ -19,6 +22,7 @@ public class Card {
         this.suit = cardSuit;
         this.value = cardValue;
     }
+
 
     //Getters for Cards and Suits
     public Suit getSuit() {
@@ -35,6 +39,3 @@ public class Card {
         return value.toString() + " of " + suit.toString();
     }
 }
-
-
-

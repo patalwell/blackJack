@@ -1,6 +1,11 @@
-package com.palwell.common.util;
+package com.palwell.games.util;
 
 import java.util.ArrayList;
+
+import com.palwell.games.util.Value;
+import com.palwell.games.util.Card;
+import com.palwell.games.util.Suit;
+import com.palwell.games.util.Deck;
 
 public class Test {
 

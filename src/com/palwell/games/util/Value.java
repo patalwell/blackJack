@@ -1,4 +1,4 @@
-package com.makesrc.common.util;
+package com.palwell.games.util;
 
 /**
  * @Author Pat Alwell
